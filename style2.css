@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background-color: burlywood;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: darkgray;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+}
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+    color: purple
+}
+.down {
+    box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.6);
+    display: none;
+    position: fixed;
+}
+.down a {
+    display: block;
+    background-color: darkseagreen;
+    
+}
+ul li a:hover {
+    background-color: green;
+    color: white;
+}
+.down a:hover {
+    background-color: gray;
+    color: black;
+}
+.drop:hover .down {
+    display: block;
+}
+p {
+    padding-bottom: 1000px;
+}
