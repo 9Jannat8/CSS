@@ -1,0 +1,20 @@
+h2 {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px blue;
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 10px red;
+}
+#an {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -5px 0 blue, 0 -5px red, 5px 0 orange, 0 5px purple;
+}
+#ab {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -1px 0 red, 0 -1px red, 1px 0 red, 0 1px red;
+}
