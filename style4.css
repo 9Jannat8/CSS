@@ -1,0 +1,20 @@
+.media {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+@media screen and (min-width: 768px) {
+    .media {
+        background-color: yellow;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 650px) {
+    .media {
+        background-color: gray;
+    }
+}
+@media screen and (max-width: 480px) {
+    .media {
+        background-color: green;
+    }
+}
