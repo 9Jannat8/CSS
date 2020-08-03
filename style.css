@@ -1,149 +1,48 @@
-body{background-color: yellowgreen;
-    background-image: url('media/download%20(3).jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-
-}
-h1:nth-child(3){
-    background-color:rgb(255, 99, 71);
-    color: aqua;
-}
-h1:nth-child(4) {
-    background-color: darkgray
-}
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: pink;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-
-a:link,a:visited{
-    background-color: brown;
-    color: black;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    
-}
-
-a:hover, a:active {
-  background-color: red;
-}
-table{
-    width: 100%;
-    border: 1px solid black;
-}
-table#t01{
-    border: 1px solid black;
-}
-table#t01 th{
-    border: 1px solid black;
-}
-table#t01 td{
-    border: 1px solid black;
-}
-table#t02 th{
-    border: 1px solid black;
-}
-table#t02 td{
-    border: 1px solid black;
-}
-table#t03 td{
-    border: 1px solid black;
-    padding: 15px;
-}
-table#t03 th{
-    border: 1px solid black;
-    padding: 15px;
-}
-table#t04 td{
-    border: 1px solid black;
-    text-align: left;
-}
-table#t04 th{
-    border: 1px solid black;
-    text-align: left;
-}
-table#t05 td{
-    border: 1px solid black;
-    padding: 10px;
-}
-table#t05 th{
-    border: 1px solid black;
-    padding: 10px;
-}
-table#t05{
-    border: 1px solid black;
-    border-spacing: 15px;
-    padding: 10px;
-}
-.all-brow{
+body {
     margin: 0px;
-    background-color: lightgray;
-    padding: 5px;
+    background-color: burlywood;
 }
-
-.brow{
-    background-color: white;
+ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: darkgray;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
 }
-
-.all-brow > h2, .brow {
-  margin: 10px;
-  padding: 5px;
+ul li {
+    float: left;
+    list-style-type: none;
 }
-
-.brow > h2, p {
-  margin: 4px;
-  font-size: 90%;
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+    color: purple
 }
-aside{
-    padding-left: 15px;
-    margin-left: 15px;
-    width: 30%;
-    background-color: lightgray;
-    font-style: italic;
-    float: right
+.down {
+    box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.6);
+    display: none;
+    position: fixed;
+}
+.down a {
+    display: block;
+    background-color: darkseagreen;
     
 }
-
-#my1 {
-    background-color: red;
-    background-image: url(../12-3-20/11-3-20.jpg);
-    background-repeat: no-repeat;
+ul li a:hover {
+    background-color: green;
+    color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.down a:hover {
+    background-color: gray;
+    color: black;
+}
+.drop:hover .down {
+    display: block;
+}
+p {
+    padding-bottom: 1000px;
+}
