@@ -1,0 +1,40 @@
+.gr {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(red, yellow, green);
+    display: inline-block;
+    margin-right: 10px;
+}
+.grt {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(red 50%, yellow 50%);
+    display: inline-block;
+}
+.gp {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right, red, yellow, green);
+    display: inline-block;
+    margin-right: 10px;
+}
+.gn {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right bottom, red, yellow, green);
+    display: inline-block;
+    margin-right: 10px;
+}
+.rgb {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgba(22, 160, 133,0), rgba(22, 160, 133,1.0));
+    display: inline-block;
+    margin-right: 10px;
+}
+.ra {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(red 20%, green 70%, yellow 10%);
+    display: inline-block;
+}
