@@ -18,3 +18,25 @@ h3 {
     text-align: center;
     text-shadow: -1px 0 red, 0 -1px red, 1px 0 red, 0 1px red;
 }
+.img {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.img:hover {
+    box-shadow: 8px 8px 10px rgba(149, 175, 192,1.0), -8px 8px 10px rgba(149, 175, 192,1.0);
+}
+.img .title {
+    padding: 10px;
+    background-color: lightgray;
+}
+.img img {
+    width: 100%;
+}
+.img .title h1 {
+    font-family: cursive;
+    font-size: 30px;
+    text-transform: capitalize;
+    
+}
